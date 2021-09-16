@@ -1,0 +1,215 @@
+html,body,.capa{
+    height:100%;
+    overflow: auto;
+}
+
+body{
+    background:url("imagens/capa.png"), url("imagens/ruido.png");
+               background-attachment: fixed;
+    background-color: #2941ab;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+
+
+/* ==========barra de navegação=============== */
+
+.img-logo{
+    height: 40px;
+    width: 135px;
+    background: url("imagens/spotify.svg") no-repeat;
+    display: block;
+    background-size: contain;
+    color: transparent;
+}
+
+nav.navbar-transparente{
+    background:black;
+    padding: 15px 0px;
+    border:none;
+}
+
+.navbar-brand{
+    padding:0px;
+    padding-top: 5px;
+    padding-left: 7px;
+}
+
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 18px 10px;
+}
+
+.navbar-transparente .navbar-nav >li>a {
+    color: white;
+}
+
+.navbar-transparente .navbar-nav >li>a:hover {
+    color: #1DB954;
+}
+
+#rodape .nav a{
+    color: white;
+}
+
+#rodape .nav >li>a:hover {
+    color: #1DB954;
+    background: none;
+}
+
+/* ==========Imagem de Capa=============== */
+.capa {
+    width: 100%;
+    display: table;
+}
+
+.texto-capa{
+    text-align: center;
+    color:white;
+    display: table-cell;
+    vertical-align: middle;
+}
+/* ===================================Botões=============================== */
+.btn-custom{
+    color: #2941ab;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 620;
+    padding: 14px 32px;
+}
+
+.btn-verde{
+    background: #1DB954;
+}
+
+.btn-custom:hover{
+        transform: scale(1.1);
+        transition: all 0.5s;
+        color: white;
+}
+
+/* ==========Serviços/Conteudo=============== */
+#servicos{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albuns{
+    padding: 10px 0px 10px 0px;
+}
+
+/* ==========Recursos/Conteudo=============== */
+#recursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rotacionar{
+    transform: rotate(25deg);
+    -ms-transform:rotate(25deg);
+    -webkit-transform:rotate(25deg);
+    padding-left: 80px;
+    padding-top: 10px;
+    
+}
+
+/* ===================================Tipografia=============================== */
+h1{
+    font-size: 120px;
+    font-weight: 900;
+    letter-spacing: -8px;
+    margin-top: 60px;
+    color:#1DB954;
+}
+
+h4{
+    font-size: 16px;
+    font-weight: 500;
+    color:#1DB954;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 4000px;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 4000px;
+    letter-spacing: -0.04em;
+}
+
+#servicos h2, #servicos h3{
+    color: #0a228b;
+}
+
+#recursos h2, #recursos h3{
+    color: #1DB954;
+}
+
+#recursos p{
+    color:white;
+}
+
+/* ===================================Rodapé=============================== */
+footer{
+    background: black;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+#rodape h4{
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.item-rede-social{
+    float: right;
+}
+
+/* ===================================Media Queries=============================== */
+@media screen and (max-width: 767px){
+    h1{
+        font-size: 110px;
+    }
+
+    h4{
+        margin: 40px;
+    }
+
+    .img-logo{
+        height: 40px;
+        width: 135px;
+        background: url("imagens/spotify.svg") no-repeat;
+        display: block;
+        background-size: contain;
+        color: transparent;
+        margin-left: 20px;
+    }
+
+    .btn-custom{
+        color: #2941ab;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 620;
+        padding: 14px 32px;
+        margin-bottom: 20px;
+    }
+
+}
+
+
